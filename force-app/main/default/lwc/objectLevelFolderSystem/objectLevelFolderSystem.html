@@ -34,9 +34,9 @@
         </template>
         <!--Use template if:true to display/hide popup based on isModalOpen value-->
         <template if:true={isManageModalOpen}>
-            <c-object-level-foldering-system-manage-folders object-api-name={objectApiName} record-id={recordId}
+            <c-object-level-folder-system-manager object-api-name={objectApiName} record-id={recordId}
                 onclosemodal={closeManageModal}>
-            </c-object-level-foldering-system-manage-folders>
+            </c-object-level-folder-system-manager>
         </template>
         <template if:true={isAddFilesModalOpen}>
             <!-- Modal/Popup Box LWC starts here -->

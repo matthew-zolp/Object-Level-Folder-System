@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Object_Folder__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The lookup relationship from Content Object Connector to Content Object Folder that allows a many to many relationship between files and folders.</description>
+    <externalId>false</externalId>
+    <label>Content Object Folder</label>
+    <referenceTo>Content_Object_Folder__c</referenceTo>
+    <relationshipLabel>Content Object Connectors</relationshipLabel>
+    <relationshipName>Content_Object_Connectors</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
