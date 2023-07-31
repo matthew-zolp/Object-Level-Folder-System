@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>ObjectLevelFolderingSystemController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <description>Assign this permission set to users that you want to have access to the Object Level Folder System.</description>
     <fieldPermissions>
         <editable>true</editable>
